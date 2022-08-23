@@ -23,7 +23,9 @@ def generate_mnist_figure(num_rows, num_columns, images):
             axs[i][j].set_yticks([])
     return fig
 
-
+# TODO: Fix main method
+# TODO: Make it into an realtime uptading app
+# TODO: Use JAX for this
 if __name__ == '__main__':
     # Model / data parameters
     num_classes = 10
